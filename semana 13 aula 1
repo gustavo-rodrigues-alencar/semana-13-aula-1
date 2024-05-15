@@ -1,0 +1,17 @@
+def principal():
+    # Pedimos aos usuários que digitem dois números
+    numero1 = float(input("Digite o primeiro número: "))
+    numero2 = float(input("Digite o segundo número: "))
+    
+    # Vamos somar os números que eles forneceram
+    soma = numero1 + numero2
+    
+    # Além da soma, agora também vamos multiplicar os números
+    multiplicacao = numero1 * numero2
+    
+    # Agora mostraremos aos usuários os resultados
+    print("A soma de", numero1, "e", numero2, "é:", soma)
+    print("A multiplicação de", numero1, "e", numero2, "é:", multiplicacao)
+
+if __name__ == "__main__":
+    principal()
